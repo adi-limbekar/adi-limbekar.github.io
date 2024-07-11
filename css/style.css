@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
-  color: #000;
+  color: #fff;
   background: #fff;
 }
 
@@ -75,24 +75,24 @@ h4,
 h5,
 h6,
 figure {
-  color: #000;
+  color: #fff;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #39f8ab;
+  background: rgba(4, 238, 250, 0.749);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #39f8ab;
+  background: rgba(4, 238, 250, 0.749);
 }
 
 ::selection {
   color: #fff;
-  background: #39f8ab;
+  background: rgba(4, 238, 250, 0.749);
 }
 
 #fh5co-header,
@@ -111,7 +111,7 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(57, 248, 171, 0.697);
+  background: rgba(4, 238, 250, 0.749);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -132,7 +132,7 @@ figure {
 .fh5co-cover .display-tc h3 {
   margin: 0;
   padding: 0;
-  color: #000;
+  color: #fff;
 }
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
@@ -253,13 +253,13 @@ figure {
   color: #000;
 }
 
-#fh5co-features .fh5co-cover {
-  background: #39f8ab;
-}
+/* #fh5co-features .fh5co-cover {
+  background: #f3ee00;
+} */
 
 #fh5co-work .container .services-padding .skills-heading .sub-heading {
   font-size: 30px;
-  color: #000;
+  color: #fff;
 }
 
 #fh5co-features h2 {
@@ -295,7 +295,7 @@ figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #39f8ab !important;
+  color: rgba(4, 238, 250, 0.749) !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -345,15 +345,16 @@ figure {
 }
 
 .fh5co-bg-dark {
-  /* background: #2f3c4f; */
-  background: #39f8acc8;
+  background: #2f3c4f;
+  /* background: #39f8acc8; */
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #000 !important;
+  font-weight: bold;
 }
 .fh5co-bg-grey {
   /* background: #2f3c4f; */
-  background: #666867c8;
+  background: #000;
 }
 
 .info {
@@ -380,13 +381,13 @@ figure {
   width: 30%;
   display: inline-block;
   float: left;
-  color: #39f8ab;
+  color: rgba(4, 238, 250, 0.749);
   font-weight: bold;
 }
 .info li .second-block {
   width: 70%;
   display: inline-block;
-  color: #000;
+  color: #fff;
 }
 
 .fh5co-social-icons {
@@ -407,7 +408,7 @@ figure {
   display: inline-block;
   zoom: 1;
   display: inline;
-  color: #39f8ab;
+  color: rgba(4, 238, 250, 0.749);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -432,7 +433,7 @@ figure {
   display: inline-block;
   zoom: 1;
   display: inline; */
-  color: #000;
+  color: #fff;
   /* background: #2f3c4f; */
   /* padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
@@ -452,7 +453,7 @@ figure {
 }
 
 #fh5co-about .fh5co-social-icons .icon-github2:hover {
-  color: #39f8ab;
+  color: rgb(4, 238, 250);
 }
 
 .fh5co-heading {
@@ -465,7 +466,8 @@ figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #39f8ab;
+  color: rgb(4, 238, 250);
+  font-weight: bolder;
 }
 .fh5co-heading p {
   font-size: 18px;
@@ -583,7 +585,7 @@ figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #39f8ab;
+  background-color: rgb(4, 238, 250);
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -633,7 +635,7 @@ figure {
 
 .timeline-title {
   margin-top: 0;
-  color: #39f8ab;
+  color: rgb(4, 238, 250);
 }
 
 .company {
@@ -729,7 +731,9 @@ figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #ff9100bd;
+  /* background: rgba(4, 238, 250, 0.749); */
+  /* background: rgb(4, 238, 250); */
+  background: #000;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -741,12 +745,12 @@ figure {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
-  color: #000;
+  color: rgb(4, 238, 250);
   font-weight: bold;
 }
 .work .desc span {
   display: block;
-  color: #39f8ab;
+  color: #ffffff;
   font-size: 18px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -801,7 +805,7 @@ figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #39f8ab;
+  color: rgb(4, 238, 250);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1342,16 +1346,30 @@ hr {
   display: block;
   position: relative;
   /* padding: 0; */
-  margin: 2px auto;
+  margin: 1px auto;
   /* height: 0; */
   width: 100%;
   max-height: 0;
   font-size: 1px;
-  line-height: 2;
+  line-height: 1;
   /* clear: both; */
   border: none;
-  /* border-top: 1px solid #aaaaaa;
-  border-bottom: 1px solid #ffffff; */
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
+.resumeDownload {
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 35px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: #000;
+  border: #000 3px dotted;
+}
+
+.resumeDownload:hover {
+  background-color: #000;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
