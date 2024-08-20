@@ -259,7 +259,11 @@ figure {
 
 #fh5co-work .container .services-padding .skills-heading .sub-heading {
   font-size: 30px;
-  color: #fff;
+  color: #d9534f;
+}
+
+.fh5co-cover .container .row .fh5co-heading .sub-heading {
+  color: #d9534f;
 }
 
 #fh5co-features h2 {
@@ -514,12 +518,13 @@ figure {
 }
 .timeline .timeline-heading > div h3 {
   display: inline-block;
-  padding: 7px 15px;
+  padding: 10px 15px;
   font-size: 18px;
+  width: 800px;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #ff9000;
+  background: #d9534f;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -638,12 +643,18 @@ figure {
   color: rgb(4, 238, 250);
 }
 
+.timeline-title-achieve {
+  margin-top: 0;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
 .company {
   display: block;
   margin-bottom: 0px;
   font-size: 22px;
   font-weight: normal;
-  color: #ff9b1a;
+  color: #d9534f;
   font-weight: bold;
 }
 
@@ -652,7 +663,16 @@ figure {
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: normal;
-  color: #ff9b1a;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.date-achieve {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ff5500;
   font-weight: bold;
 }
 
@@ -669,6 +689,11 @@ figure {
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.timeline-body-achieve {
+  font-weight: bolder;
+  font-style: italic;
 }
 
 @media (max-width: 992px) {
@@ -1369,7 +1394,54 @@ hr {
 }
 
 .resumeDownload:hover {
-  background-color: #000;
+  background-color: #d43f3a;
   color: #fff;
 }
+
+#fh5co-work .feature-left {
+  margin-bottom: 10px;
+  float: left;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-work .feature-left {
+    margin-bottom: 30px;
+  }
+}
+#fh5co-work .feature-left .icon .ref {
+  display: table;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#fh5co-work .feature-left .icon i {
+  font-size: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  color: #d9534f;
+}
+#fh5co-work .feature-left .feature-copy {
+  width: 100%;
+}
+#fh5co-work .feature-left .feature-copy .ref h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+#fh5co-work .feature-left .feature-copy .p .list {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */
+
+.ref .certi {
+  color: #d9534f;
+}
