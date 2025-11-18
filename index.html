@@ -1,784 +1,1454 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
+
+	<!--- basic page needs
+   ================================================== -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Aditya Milind Limbekar - Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords"
-		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
+	<title>Aditya Limbekar Portfolio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-	<!-- 
-	//////////////////////////////////////////////////////
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
 
-	//////////////////////////////////////////////////////
-	 -->
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="logo1.png">
 	<link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-	<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
-
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 </head>
 
-<body>
+<body id="top">
 
-	<div class="fh5co-loader"></div>
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
 
-	<div id="page">
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
-			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t js-fullheight">
-							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-								<div class="profile-thumb" style="background: url(images/about-2.jpg);"></div>
-								<h1><span>Aditya Milind Limbekar</span></h1>
-								<h2><span><b>Software Engineer</b></span></h2>
-								<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.linkedin.com/in/adityalimbekar/"><i
-												class="icon-linkedin2"></i></a></li>
-									<li class="github-icon"><a href="https://github.com/adi-limbekar"><i
-												class="icon-github2"></i></a></li>
-								</ul>
-								</p>
-								<a class="resumeDownload" href="Resume_Aditya_Limbekar.pdf" download><i class="icon-download"></i> Resume</a>
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<a href="index.html">My Portfolio</a>
+				</div>
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#achievements" title="">Achievements</a></li>
+						<!-- <li><a class="smoothscroll" href="#contact" title="">Contact</a></li> -->
+						<!-- <li><a href="styles.html" title="">Style Demo</a></li> -->
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h3>Hello,</h3>
+					<h1>I'm Aditya Limbekar.</h1>
+
+					<p class="intro-position">
+						<span>Software Engineer</span>
+						<span>Backend-end Developer</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+				</div>
+
+			</div>
+		</div> <!-- /intro-content -->
+		<ul class="intro-social">
+			<li><a href="https://www.linkedin.com/in/adityalimbekar/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/adi-limbekar"><i class="fa fa-github"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h1>About</h1>
+				<h2 class="text">Let me introduce myself.</h2>
+
+				<div class="intro-info">
+
+					<img src="images/profile.jpeg" alt="Profile Picture">
+					<h2>Hello There!</h2>
+					<p class="lead">I am a results-driven Software Engineer with hands-on experience designing scalable,
+						high-performance applications using Java, Python, Spring Boot, AWS, Docker, Jenkins, and
+						Kubernetes.
+						At Changing the Present, I engineered backend automation, customized Shopify-based platforms,
+						and optimized cloud-integrated workflows—improving data processing speed, search efficiency, and
+						overall user engagement.</p>
+
+					<p class="lead">Previously, as a Junior Software Engineer at Cognizant, I strengthened system
+						stability by
+						enhancing REST APIs, optimizing SQL queries, and resolving backend issues across large-scale
+						enterprise systems. My earlier internship at Padmajeet Infotech further grounded my foundation
+						in Android development and responsive UI design.</p>
+
+
+					<p class="lead">I am passionate about building clean, scalable architectures, automating complex
+						processes, and delivering seamless user experiences. I’m committed to continuous learning and
+						leveraging modern
+						engineering practices to create meaningful, long-lasting impact through technology.</p>
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="tab-full">
+
+				<!-- <h3>Profile</h3> -->
+
+				<table class="info-list">
+					<tr>
+						<th><strong>Contact</strong>
+							<span>+91 8793340828</span>
+						</th>
+						<th><strong>Email</strong>
+							<span>adityamilind.limbekar@gmail.com</span>
+						</th>
+						<th><strong>Address</strong>
+							<span>Pune, MH, India</span>
+						</th>
+					</tr>
+				</table>
+
+			</div>
+
+			<div class="tab-full">
+
+				<h2>Skills</h2>
+				<!-- <h4>Programming Languages</h4>
+				<div style="display: flex; align-items: center; flex-wrap: wrap;">
+					<div class="rounded-pill">Python</div>
+					<div class="rounded-pill">C++</div>
+				</div> -->
+				<ul class="info-list">
+					<li>
+						<strong>Programming Languages:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">Java</div>
+								<div class="rounded-pill">Python</div>
+								<div class="rounded-pill">HTML</div>
+								<div class="rounded-pill">CSS</div>
+								<div class="rounded-pill">C</div>
+								<div class="rounded-pill">JavaScript</div>
+								<div class="rounded-pill">SQL</div>
+							</div>
+						</span>
+					</li>
+					<li>
+						<strong>Frameworks and Libraries:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">Spring</div>
+								<div class="rounded-pill">Maven</div>
+								<div class="rounded-pill">Hibernate</div>
+								<div class="rounded-pill">Bootstrap</div>
+							</div>
+						</span>
+					</li>
+					<li>
+						<strong>Databases:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">MySQL</div>
+								<div class="rounded-pill">MongoDB</div>
+								<div class="rounded-pill">Microsoft SQL Server</div>
+								<div class="rounded-pill">Oracle Database</div>
+								<div class="rounded-pill">PostgreSQL</div>
+								<div class="rounded-pill">Amazon RDS</div>
+							</div>
+						</span>
+					</li>
+					<li>
+						<strong>Operating Systems:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">Microsoft Windows</div>
+								<div class="rounded-pill">Linux</div>
+								<div class="rounded-pill">Ubuntu</div>
+								<div class="rounded-pill">macOS</div>
+								<div class="rounded-pill">Android</div>
+							</div>
+						</span>
+					</li>
+					<li>
+						<strong>Tools and Platforms:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">GitHub</div>
+								<div class="rounded-pill">AWS</div>
+								<div class="rounded-pill">Kubernetes</div>
+								<div class="rounded-pill">Jenkins</div>
+								<div class="rounded-pill">Docker</div>
+								<div class="rounded-pill">VS Code</div>
+								<div class="rounded-pill">Eclipse IDE</div>
+								<div class="rounded-pill">Android Studio</div>
+								<div class="rounded-pill">Postman</div>
+								<div class="rounded-pill">Google Firebase</div>
+								<div class="rounded-pill">Anaconda Navigator</div>
+								<div class="rounded-pill">Jupyter Notebook</div>
+							</div>
+						</span>
+					</li>
+					<li>
+						<strong>Data Formats:</strong>
+						<span>
+							<div style="display: flex; align-items: center; flex-wrap: wrap;">
+								<div class="rounded-pill">JSON</div>
+								<div class="rounded-pill">XML</div>
+								<div class="rounded-pill">YAML</div>
+								<div class="rounded-pill">CSV</div>
+							</div>
+						</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<!-- <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a> -->
+				<a href="#" title="Download Resume" class="button button-primary">Download Resume</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h1>Resume</h1>
+				<h2 class="text">More of my credentials.</h2>
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Software Engineer Intern</h3>
+							<p>August 2024 - June 2025</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Changing the Present</h4>
+							<!-- <p>HLTML, CSS, JavaScript, Shopify, AWS RDS, SQL, MySQL, AWS Lambda</p> -->
+
+							<div class="skills-container">
+								<div class="skill-card">
+									<i class="devicon-html5-plain-wordmark colored"></i>
+									<p>HTML5</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-css3-plain-wordmark colored"></i>
+									<p>CSS3</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-javascript-plain colored"></i>
+									<p>JavaScript</p>
+								</div>
+								<div class="skill-card">
+									<i><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg"
+											alt="Shopify" width="60" height="50"
+											style="display:block; margin-top: 5px; margin-bottom: 12px;"></i>
+									<p>Shopify</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+									<p>AWS Lambda</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-azuresqldatabase-plain colored"></i>
+									<p>AWS RDS</p>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</header>
 
-		<hr>
+					</div> <!-- /timeline-block -->
 
-		<div id="fh5co-about" class="fh5co-bg-grey animate-box">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>About Me</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<ul class="info">
-							<li><span class="first-block">Full Name:</span><span class="second-block">Aditya Milind
-									Limbekar</span></li>
-							<li><span class="first-block">Phone:</span><span class="second-block">+1 (571)
-									641-1864</span>
-							</li>
-							<li><span class="first-block">Email:</span><span
-									class="second-block">adityamilind.limbekar@gmail.com</span></li>
-							<li><span class="first-block">Address:</span><span class="second-block">Arlington Heights,
-									IL,
-									USA</span></li>
-						</ul>
-					</div>
-					<div class="col-md-8">
-						<h2>Hello There!</h2>
-						<p>I am skilled in utilizing cutting-edge technologies like Java, Python, Spring Boot, Docker,
-							Jenkins, Kubernetes, and AWS to deliver impactful solutions. My experience as a Junior
-							Software Engineer at
-							Cognizant and Android Developer Intern at Pamajeet Infotech has honed my ability to enhance
-							system stability
-							and user engagement through innovative projects. I am dedicated to employing advanced
-							methodologies to drive
-							high-quality, scalable outcomes.</p>
-						<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://www.linkedin.com/in/adityalimbekar/"><i class="icon-linkedin2"></i></a>
-							</li>
-							<li><a href="https://github.com/adi-limbekar"><i class="icon-github2"></i></a></li>
-						</ul>
-						</p>
-					</div>
-				</div>
-			</div>
-			<br class="solid">
-		</div>
-		<!-- <br class="solid"> -->
-		<hr>
+					<div class="timeline-block">
 
-		<div id="fh5co-resume" class="fh5co-bg-grey">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Resume</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0">
-						<ul class="timeline">
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Professional Experience</h3>
-								</div>
-							</li>
-
-							<li class="timeline-unverted animate-box">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Software Engineer Intern</h3>
-										<span class="company">Changing the Present</span>
-										<spam class="date">August 2024 – Present</span>
-									</div>
-									<div class="timeline-body">
-										<p>HTML, CSS, JavaScript, AWS RDS, SQL, MySQL</p>
-									</div>
-								</div>
-							</li>
-
-							<li class="animate-box timeline-inverted">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Junior Software Engineer</h3>
-										<span class="company">Cognizant Technology Solutions</span>
-										<spam class="date">December 2020 – July 2022</span>
-									</div>
-									<div class="timeline-body">
-										<p>Java, Spring Boot, Hibernate ORM, Microservices development, Spring Data JPA,
-											Logger debugging, Spring Security, JWT</p>
-									</div>
-								</div>
-							</li>
-							<li class="timeline-unverted animate-box">
-								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Android Developer Intern</h3>
-										<span class="company">Padmajeet Infotech - 2013 - 2015</span>
-										<spam class="date">July 2019 – October 2019</span>
-									</div>
-									<div class="timeline-body">
-										<p>Java, XML, Maven, MySQL, Android Studio, Postman, JUnit, Hibernate ORM,
-											REST
-											API, Simulator </p>
-									</div>
-								</div>
-							</li>
-
-							<br>
-							<hr>
-							<br>
-							<li class="timeline-heading text-center animate-box">
-								<div>
-									<h3>Education</h3>
-								</div>
-							</li>
-							<li class="timeline-inverted animate-box">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Master of Science in Computer Science</h3>
-										<span class="company">George Mason University</span>
-										<spam class="date">August 2022 - May 2024</span>
-									</div>
-									<h4 class="sub-title"><b>Related Coursework: </b></h4>
-									<div class="timeline-body">
-										<p>
-											Component-Based Software Development, Database Programming for WWW,
-											Analysis
-											of Algorithms I, Decision Guidance System, Secure Software Development,
-											Advanced NLP, Intro to AI
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="animate-box timeline-unverted">
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Bachelor of Engineering in Computer Science</h3>
-										<span class="company">Visvesvaraya Technological University</span>
-										<spam class="date">August 2016 - August 2020</span>
-									</div>
-									<h4 class="sub-title"><b>Related Coursework: </b></h4>
-									<div class="timeline-body">
-										<p>Advanced JAVA and J2EE, Big Data, Python Application Programming, Data
-											Structures, UNIX and Shell Programming, OOPS Java, DBMS, Machine
-											Learning
-										</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<hr>
-
-		<div div id="fh5co-work" class="fh5co-bg-grey">
-			<div class="container">
-				<div class="services-padding">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>My Skills</h2>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
 						</div>
+
+						<div class="timeline-header">
+							<h3>Junior Software Engineer</h3>
+							<p>December 2020 - July 2022</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Cognizant Technology Solutions</h4>
+							<!-- <p>Java, Spring Boot, Hibernate ORM, Microservices development, Spring Data JPA,
+								Logger debugging, Spring Security, JWT</p> -->
+							<div class="skills-container">
+								<div class="skill-card">
+									<i class="devicon-java-plain-wordmark colored"></i>
+									<p>Java</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-spring-plain-wordmark colored"></i>
+									<p>Spring Boot</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-hibernate-plain colored"></i>
+									<p>Hibernate</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-postman-plain colored"></i>
+									<p>Postman</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-sqldeveloper-plain colored"></i>
+									<p>SQL</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-eclipse-plain colored"></i>
+									<p>Eclipse</p>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Android Developer Intern</h3>
+							<p>July 2019 - October 2019</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Padmajeet Infotech</h4>
+							<!-- <p>Java, XML, Maven, MySQL, Android Studio, Postman, JUnit, Hibernate ORM,
+								REST API, Simulator</p> -->
+							<div class="skills-container">
+								<div class="skill-card">
+									<i class="devicon-java-plain colored"></i>
+									<p>Java</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-xml-plain-wordmark colored"></i>
+									<p>XML</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-maven-plain colored"></i>
+									<p>Maven</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-mysql-plain colored"></i>
+									<p>MySQL</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-android-plain colored"></i>
+									<p>Android</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-postman-plain colored"></i>
+									<p>Postman</p>
+								</div>
+								<div class="skill-card">
+									<i class="devicon-junit-plain colored"></i>
+									<p>JUnit</p>
+								</div>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+					</div> <!-- /timeline-wrap -->
+
+				</div> <!-- /col-twelve -->
+
+			</div> <!-- /resume-timeline -->
+
+			<div class="row resume-timeline">
+
+				<div class="col-twelve resume-header">
+
+					<h2>Education</h2>
+
+				</div> <!-- /resume-header -->
+
+				<div class="col-twelve">
+
+					<div class="timeline-wrap">
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Master of Science in Computer Science</h3>
+								<p>August 2022 - May 2024</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>George Mason University</h4>
+								<strong>Related Courses:</strong>
+
+								<div class="courses-container">
+									<ul>
+										<li>Component-Based Software Development</li>
+										<li>Database Programming for WWW</li>
+										<li>Analysis of Algorithms I</li>
+										<li>Decision Guidance System</li>
+										<li>Secure Software Development</li>
+										<li>Advanced NLP</li>
+										<li>Intro to AI</li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Bachelor of Engineering in Computer Science</h3>
+								<p>August 2016 - August 2020</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Visvesvaraya Technological University</h4>
+								<strong>Related Courses:</strong>
+								<div class="courses-container">
+									<ul>
+										<li>Advanced JAVA and J2EE</li>
+										<li>Big Data</li>
+										<li>Python Application Programming</li>
+										<li>Data Structures</li>
+										<li>UNIX and Shell Programming</li>
+										<li>Database Management System</li>
+										<li>Machine Learning</li>
+									</ul>
+								</div>
+							</div>
+
+						</div> <!-- /timeline-block -->
+
+						<!-- <div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Bachelor Degree</h3>
+							<p>May 2013 - June 2014</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Design College</h4>
+							<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+								cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+								cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est
+								occaecat nisi incididunt.</p>
+						</div>
+
+					</div> /timeline-block
+
+				</div> /timeline-wrap -->
+
+					</div> <!-- /col-twelve -->
+
+				</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h1>Portfolio</h1>
+				<h2 class="text">Check Out Some of My Projects.</h2>
+
+				<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
+					nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/smart.jpeg" alt="Liberty">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">SAARTHI - Smart City App</h3>
+										<span class="folio-types">
+											Android Application Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/medApp.png" alt="Shutterbug">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">MedApp - Disaster Management App</h3>
+										<span class="folio-types">
+											Android Application Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/wordpredictor.png" alt="Clouds">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Word Predictor</h3>
+										<span class="folio-types">
+											Standalone Java/J2EE Application Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/cicd.png" alt="Beetle">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Student Survey Form Deployment
+										</h3>
+										<span class="folio-types">
+											CI/CD Pipeline
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/devops.webp" alt="Lighthouse">
+							<a href="#modal-05" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Microservices based Application - Student Survey Form
+										</h3>
+										<span class="folio-types">
+											DevOps
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/nlp_project.jpeg" alt="Salad">
+							<a href="#modal-06" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Sentiment Classification using NLP</h3>
+										<span class="folio-types">
+											Natural Language Processing
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<!-- modal popups - begin
+	            ============================================================= -->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/Smart-City.webp" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>SAARTHI - Smart City App</h4>
+							<p>XML, Java, Google Firebase, RESTful API, Postman, Google Places API </p>
+
+							<div class="categories">Android Application Development</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/SARTHI--A-Helping-Hand_Smart-City-App">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-01 -->
+
+					<div id="modal-02" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/medApp.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>MedApp - Disaster Management App</h4>
+							<p>Java, Android, AWS, Firebase, GCP</p>
+
+							<div class="categories">Android Application Development</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/SIH-2020_ABHYUDAY">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-02 -->
+
+					<div id="modal-03" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/wordpredictor.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Word Predictor</h4>
+							<p>Java, J2EE, DBMS, MySQL, NetBeans, WampServer, JDBC</p>
+
+							<div class="categories">Standalone Java/J2EE Application Development</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/Word-Predictor-DBMS-Mini-Project">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-03 -->
+
+					<div id="modal-04" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/cicd.png" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Student Survey Form Deployment</h4>
+							<p>HTML, CSS, GitHub, VS Code, Docker, Jenkins, Kubernetes, AWS Ec2,
+								Rancher</p>
+
+							<div class="categories">CI/CD Pipeline</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/SWE-645-Assignment-2">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-04 -->
+
+					<div id="modal-05" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/devops.webp" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Microservices based Application - Student Survey Form</h4>
+							<p>GitHub, Spring Tool Suite, Spring Boot, Postman, Docker, Jenkins, Kubernetes,
+								Rancher, AWS EC2, AWS RDS, AWS Route 53</p>
+
+							<div class="categories">DevOps</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/SWE-645-Assignment-3">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-05 -->
+
+					<div id="modal-06" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="images/portfolio/nlp_project.jpeg" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Sentiment Classification using NLP</h4>
+							<p>Python, Jupyter Notebook, Anaconda, Google Colab, PyTorch, Scikit-learn,
+								Pandas, BERT, RoBERTa, XLNet</p>
+
+							<div class="categories">Natural Language Processing</div>
+						</div>
+
+						<div class="link-box">
+							<a href="https://github.com/adi-limbekar/CS678_NLP_Project">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-06 -->
+
+
+					<!-- modal popups - end
+	            ============================================================= -->
+
+				</div> <!-- /portfolio-wrapper -->
+
+			</div> <!-- /twelve -->
+
+		</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<!-- <section id="resume" class="grey-section">
+
+		<div class="col-twelve resume-header">
+
+			<div class="timeline-wrap">
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
 					</div>
 
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Programming Languages</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
+					<div class="timeline-header">
+						<h3>Software Engineer Intern</h3>
+						<p>August 2024 - June 2025</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Changing the Present</h4>
+						
+
+						<div class="skills-container">
+							<div class="skill-card">
 								<i class="devicon-html5-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
+								<p>HTML5</p>
+							</div>
+							<div class="skill-card">
 								<i class="devicon-css3-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-java-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-c-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-python-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-sqldeveloper-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
+								<p>CSS3</p>
+							</div>
+							<div class="skill-card">
 								<i class="devicon-javascript-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-bash-plain"></i>
-							</li>
-						</ul>
-					</div>
-
-
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Frameworks & Libraries</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
-								<i class="devicon-spring-original-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-hibernate-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-maven-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-android-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-bootstrap-plain-wordmark colored"></i>
-							</li>
-						</ul>
-					</div>
-
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Databases</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
-								<i class="devicon-mysql-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-mongodb-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
-							</li>
-						</ul>
-					</div>
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Tools & Platforms</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
-								<i class="devicon-git-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-github-original-wordmark"></i>
-							</li>
-							<li class="list-inline-item">
+								<p>JavaScript</p>
+							</div>
+							<div class="skill-card">
+								<i><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg"
+										alt="Shopify" width="60" height="50"
+										style="display:block; margin-top: 5px; margin-bottom: 12px;"></i>
+								<p>Shopify</p>
+							</div>
+							<div class="skill-card">
 								<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-kubernetes-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-jenkins-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-vscode-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-eclipse-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-rancher-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-androidstudio-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
+								<p>AWS Lambda</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-azuresqldatabase-plain colored"></i>
+								<p>AWS RDS</p>
+							</div>
+						</div>
+					</div>
+
+				</div> 
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Junior Software Engineer</h3>
+						<p>December 2020 - July 2022</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Cognizant Technology Solutions</h4>
+						
+						<div class="skills-container">
+							<div class="skill-card">
+								<i class="devicon-java-plain-wordmark colored"></i>
+								<p>Java</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-spring-plain-wordmark colored"></i>
+								<p>Spring Boot</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-hibernate-plain colored"></i>
+								<p>Hibernate</p>
+							</div>
+							<div class="skill-card">
 								<i class="devicon-postman-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-firebase-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-anaconda-original colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-jupyter-plain-wordmark colored"></i>
-							</li>
-						</ul>
-					</div>
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Operating Systems</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
-								<i class="devicon-unix-original colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-ubuntu-plain-wordmark colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-windows8-original colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-linux-plain colored"></i>
-							</li>
-						</ul>
+								<p>Postman</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-sqldeveloper-plain colored"></i>
+								<p>SQL</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-eclipse-plain colored"></i>
+								<p>Eclipse</p>
+							</div>
+						</div>
 					</div>
 
-					<div class="skills-heading col-md-6">
-						<h4 class="sub-heading">Data Formats</h4>
-						<ul class="list-inline list-icons animate-box">
-							<li class="list-inline-item">
-								<i class="devicon-json-plain"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-xml-plain colored"></i>
-							</li>
-							<li class="list-inline-item">
-								<i class="devicon-yaml-plain colored"></i>
-							</li>
-						</ul>
+				</div> 
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
 					</div>
 
-				</div>
-			</div>
+					<div class="timeline-header">
+						<h3>Android Developer Intern</h3>
+						<p>July 2019 - October 2019</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Padmajeet Infotech</h4>
+						
+						<div class="skills-container">
+							<div class="skill-card">
+								<i class="devicon-java-plain colored"></i>
+								<p>Java</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-xml-plain-wordmark colored"></i>
+								<p>XML</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-maven-plain colored"></i>
+								<p>Maven</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-mysql-plain colored"></i>
+								<p>MySQL</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-android-plain colored"></i>
+								<p>Android</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-postman-plain colored"></i>
+								<p>Postman</p>
+							</div>
+							<div class="skill-card">
+								<i class="devicon-junit-plain colored"></i>
+								<p>JUnit</p>
+							</div>
+						</div>
+
+					</div> 
+
+				</div> 
+
+			</div> 
+
 		</div>
 
-		<hr>
+	</section>  -->
 
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
-			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Technical Projects</h2>
-						<h3 class="sub-heading">Click on each project to view corresponding Source Code</h3>
-					</div>
+	<section id="achievements" class="grey-section">
 
-				</div>
-				<div class="row">
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/SARTHI--A-Helping-Hand_Smart-City-App" class="work"
-							style="background-image: url(images/Smart-City.webp);">
-							<div class="desc">
-								<h3 class="project-title">Smart city android app</h3>
-								<span>Java, Android studio, XML layouts, postman, google firebase</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/SIH-2020_ABHYUDAY" class="work"
-							style="background-image: url(images/medApp.png);">
-							<div class="desc">
-								<h3>MedApp</h3>
-								<span>Java, Android, AWS, Firebase, GCP</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/Word-Predictor-DBMS-Mini-Project" class="work"
-							style="background-image: url(images/word-predictor.jpeg);">
-							<div class="desc">
-								<h3>Word Predictor</h3>
-								<span>Java, J2EE, DBMS, MySQL, NetBeans, WampServer, JDBC</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/SWE-645-Assignment-2" class="work"
-							style="background-image: url(images/cicd.png);">
-							<div class="desc">
-								<h3>Containerization (CI/CD pipeline)</h3>
-								<span>HTML, CSS, GitHub, VS Code, Docker, Jenkins, Kubernetes, AWS Ec2,
-									Rancher</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/SWE-645-Assignment-3" class="work"
-							style="background-image: url(images/devops.webp);">
-							<div class="desc">
-								<h3>Deployment on Kubernetes (DevOps)</h3>
-								<span>GitHub, Spring Tool Suite, Spring Boot, Postman, Docker, Jenkins, Kubernetes,
-									Rancher, AWS EC2, AWS RDS, AWS Route 53</span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 text-center col-padding animate-box">
-						<a href="https://github.com/adi-limbekar/CS678_NLP_Project" class="work"
-							style="background-image: url(images/nlp_project.jpeg);">
-							<div class="desc">
-								<h3>Sentiment Classification using NLP</h3>
-								<span>Python, Jupyter Notebook, Anaconda, Google Colab, PyTorch, Scikit-learn,
-									Pandas,
-									BERT, RoBERTa, XLNet</span>
-							</div>
-						</a>
-					</div>
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-				</div>
+				<h1>Achievements</h1>
 			</div>
-		</header>
+		</div> <!-- /section-intro-->
 
-		<hr>
+		<div class="row achievements-timeline">
 
-		<div id="fh5co-work" class="animate-box fh5co-bg-grey">
-			<div class="container">
-				<div class="services-padding">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Certifications</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/e816dcf57da8ead7be0093c998eb36d88e97aefd4e0b2d39d2f80f7fa5119b5c"><i
-											class="icon-amazon"></i></a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/e816dcf57da8ead7be0093c998eb36d88e97aefd4e0b2d39d2f80f7fa5119b5c">
-										<h3>Deploying Java Applications to AWS</h3>
-										<h4 class="certi">LinkedIn Learning</h4>
-									</a>
-								</div>
-							</div>
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-trophy"></i>
 						</div>
 
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/c32f7cf77ef27f3cf10294ca4848be9ffb6175c41e5053db32f33568ef5fd7b8">
-
-										<i class="devicon-java-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/c32f7cf77ef27f3cf10294ca4848be9ffb6175c41e5053db32f33568ef5fd7b8">
-										<h3>Microservices: Design Patterns</h3>
-										<h4 class="certi">LinkedIn Learning</h4>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-kubernetes-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>Learning Kubernetes</h3>
-										<h4 class="certi">LinkedIn Learning</h4>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-html5-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>Responsive Web Design: HTML5 + CSS3 for Enterpreneurs 2018</h3>
-										<h4 class="certi">Udemy</h4>
-									</a>
-								</div>
-							</div>
+						<div class="timeline-header">
+							<h3>Winner, Smart India Hackathon 2020</h3>
+							<p>May 2020</p>
 						</div>
 
+						<div class="timeline-content">
+							<h4>Ministry of Health and Human Welfare, Govt. of India</h4>
 
-						<!-- <div class="col-md-4 text-center" >
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-azuresqldatabase-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>SQl for Data Science</h3>
-										<h4>LinkedIn Learning</h4>
-									</a>
-								</div>
-							</div>
-						</div> -->
+							<p>Secured 1st prize at Smart India Hackathon 2020 - Software Edition,
+								hosted by the Government
+								of India.</p>
 
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-azuresqldatabase-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>SQl for Data Science</h3>
-										<h4 class="certi">University of California, Davis (Coursera)</h4>
-									</a>
-								</div>
-							</div>
 						</div>
 
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-azuredevops-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>DevOps Essentials</h3>
-										<h4 class="certi">Udemy</h4>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div> <!-- /timeline-block -->
 
+					<div class="timeline-block">
 
-					<div class="row">
-
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-kubernetes-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>Agile Fundamentals: Including Scrum and Kanban - 2020</h3>
-										<h4 class="certi">Udemy</h4>
-									</a>
-								</div>
-							</div>
+						<div class="timeline-ico">
+							<i class="fa fa-trophy"></i>
 						</div>
 
-
-
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-python-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>Introduction to Data Science in Python</h3>
-										<h4 class="certi">University of Michigan (Coursera)</h4>
-									</a>
-								</div>
-							</div>
+						<div class="timeline-header">
+							<h3>Distinguished Academic Achievement Award
+								(2024)</h3>
+							<p>May 2024</p>
 						</div>
 
-						<div class="col-md-4 text-center">
-							<div class="feature-left">
-								<span class="icon">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<i class="devicon-amazonwebservices-plain colored"></i>
-									</a>
-								</span>
-								<div class="feature-copy">
-									<a class="ref"
-										href="https://www.linkedin.com/learning/certificates/db99da0f6b28615cd7f9f97c7ad48728bf909e1e1a0a4cdbc32e7a308c6a6d94">
-										<h3>AWS Essentials</h3>
-										<h4 class="certi">Udemy</h4>
-									</a>
-								</div>
-							</div>
+						<div class="timeline-content">
+							<h4>College of Engineering and Computing, George Mason University</h4>
+
+							<p>Received the Distinguished Academic Achievement
+								Award for consistently demonstrating exceptional performance and
+								academic excellence.</p>
 						</div>
 
-					</div>
+					</div> <!-- /timeline-block -->
 
-				</div>
-			</div>
-		</div>
+					<!-- <div class="timeline-block">
 
-		<hr>
-
-		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
-			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Achievements</h2>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12 col-md-offset-0">
-							<ul class="timeline">
-								<!-- <li class="timeline-heading text-center animate-box">
-									<div>
-										<h3>Professional Experience</h3>
-									</div>
-								</li> -->
-
-								<li class="timeline-unverted animate-box">
-									<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title-achieve">Winner, Smart India Hackathon 2020</h3>
-											<spam class="date-achieve">May 2020</span>
-										</div>
-										<div class="timeline-body-achieve">
-											<p>Secured 1st prize at Smart India Hackathon 2020 - Software Edition,
-												hosted by the Government
-												of India.</p>
-										</div>
-									</div>
-								</li>
-
-								<li class="animate-box timeline-inverted">
-									<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-									<div class="timeline-panel">
-										<div class="timeline-heading">
-											<h3 class="timeline-title-achieve">Distinguished Academic Achievement Award
-												(2024), George Mason University</h3>
-											<spam class="date-achieve">May 2024</span>
-										</div>
-										<div class="timeline-body-achieve">
-											<p>Received the Distinguished Academic Achievement
-												Award for consistently demonstrating exceptional performance and
-												academic excellence.</p>
-										</div>
-									</div>
-								</li>
-							</ul>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
 						</div>
-					</div>
-				</div>
 
+						<div class="timeline-header">
+							<h3>Bachelor Degree</h3>
+							<p>May 2013 - June 2014</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Design College</h4>
+							<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+								cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+								cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est
+								occaecat nisi incididunt.</p>
+						</div>
+
+					</div> /timeline-block
+
+				</div> /timeline-wrap -->
+
+				</div> <!-- /col-twelve -->
+
+			</div> <!-- /resume-timeline -->
+
+	</section>
+
+	<!-- services Section
+   ================================================== -->
+	<!-- <section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Services</h5>
+				<h1>What Can I Do For You?</h1>
+
+				<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
+					nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
 
 			</div>
+		</div> 
+
+		<div class="row services-content">
+
+			<div id="owl-slider" class="owl-carousel services-list">
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-earth"></i></span>
+
+					<div class="service-content">
+
+						<h3>Webdesign</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div>
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-window"></i></span>
+
+					<div class="service-content">
+
+						<h3>Web Development</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div>
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-paint-brush"></i></span>
+
+					<div class="service-content">
+
+						<h3>Branding</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div> 
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>
+
+					<div class="service-content">
+
+						<h3>UI/UX Design</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div> 
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-image"></i></span>
+
+					<div class="service-content">
+
+						<h3>Graphics Design</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div>
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-chat"></i></span>
+
+					<div class="service-content">
+
+						<h3>Consultancy</h3>
+
+						<p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+							doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+							quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+							sit aspernatur aut odit aut fugit.
+						</p>
+
+					</div>
+
+				</div> 
+
+			</div> 
+
+		</div> 
+
+	</section> -->
 
 
+	<!-- stats Section
+   ================================================== -->
+	<!-- <section id="stats" class="count-up">
 
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div>  
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							120
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div>  
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div>  
+
+				</div> 
+
+			</div> 
+		</div> 
+
+	</section>  -->
+
+
+	<!-- contact
+   ================================================== -->
+	<!-- <section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+				<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia
+					nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+			</div>
+		</div> 
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				
+				<form name="contactForm" id="contactForm" method="post" action="">
+					<fieldset>
+
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+								minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+								required="">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10"
+								cols="50" required=""></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform">Submit</button>
+							<div id="submit-loader">
+								<div class="text-loader">Sending...</div>
+								<div class="s-loader">
+									<div class="bounce1"></div>
+									<div class="bounce2"></div>
+									<div class="bounce3"></div>
+								</div>
+							</div>
+						</div>
+
+					</fieldset>
+				</form> 
+
+				
+				<div id="message-warning">
+				</div>
+				
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> 
+
+		</div> 
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<h5>Where to find me</h5>
+
+				<p>
+					1600 Amphitheatre Parkway<br>
+					Mountain View, CA<br>
+					94043 US
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>someone@kardswebsite.com<br>
+					info@kardswebsite.com
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+
+				<h5>Call Me At</h5>
+
+				<p>Phone: (+63) 555 1212<br>
+					Mobile: (+63) 555 0100<br>
+					Fax: (+63) 555 0101
+				</p>
+
+			</div>
+
+		</div> 
+
+	</section> 
+
+
+	
+	<!-- <footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-behance"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-eight tab-full">
+				<div class="copyright">
+					<span>© Copyright 2018 </span>
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+					<span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> 
+	</footer> -->
+
+	<div id="preloader">
+		<div id="loader"></div>
 	</div>
-	</header>
 
-
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-	</div>
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-
-	<!-- Main -->
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
